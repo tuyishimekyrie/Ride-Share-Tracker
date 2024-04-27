@@ -1,0 +1,102 @@
+.controls {
+  background-color: #ccc;
+  padding: 10px;
+  z-index: 100;
+  position: absolute;
+}
+
+.header {
+  position: absolute;
+  top: 10;
+  left: 10;
+  background-color: white;
+  padding: 10;
+  borderradius: 5;
+  width: 100vw;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  background-color: white;
+  padding: 10;
+  borderradius: 5;
+  width: 100vw;
+  z-index: 10;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(21, 196, 194, 1) 40%,
+    rgba(30, 210, 90, 1) 81%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(21, 196, 194, 1) 40%,
+    rgba(30, 210, 90, 1) 81%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(21, 196, 194, 1) 40%,
+    rgba(30, 210, 90, 1) 81%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15c4c2",endColorstr="#1ed25a",GradientType=1);
+}
+.info-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+.info-card .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  background: rgb(21, 196, 194);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(21, 196, 194, 1) 40%,
+    rgba(30, 210, 90, 1) 81%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(21, 196, 194, 1) 40%,
+    rgba(30, 210, 90, 1) 81%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(21, 196, 194, 1) 40%,
+    rgba(30, 210, 90, 1) 81%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#15c4c2",endColorstr="#1ed25a",GradientType=1);
+  padding: 0.5rem;
+  align-items: center;
+}
+.content {
+  background-color: white;
+  padding: 0;
+  margin: 3rem 0 0 0;
+  /* text-align: start; */
+  padding: 0.3vw 0 0 35vw;
+}
+.local {
+  padding: 0.4rem 0 0 0;
+  text-align: start;
+  display: flex;
+  gap: 1rem;
+}
+img {
+  width: 2rem;
+}
+.svg {
+  width: 2rem;
+  color: white;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+    font-weight: 800;
+    font-size: 1rem;
+}
